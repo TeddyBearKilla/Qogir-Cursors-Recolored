@@ -3,15 +3,16 @@
 function create {
 	cd "$SRC"
 	mkdir -p x1 x1_25 x1_5 x2
-
 	cd "$SRC"/$1
 	find . -name "*.svg" -type f -exec sh -c 'inkscape -o "../x1/${0%.svg}.png" -w 32 -h 32 $0' {} \;
 	find . -name "*.svg" -type f -exec sh -c 'inkscape -o "../x1_25/${0%.svg}.png" -w 40 -w 40 $0' {} \;
 	find . -name "*.svg" -type f -exec sh -c 'inkscape -o "../x1_5/${0%.svg}.png" -w 48 -w 48 $0' {} \;
 	find . -name "*.svg" -type f -exec sh -c 'inkscape -o "../x2/${0%.svg}.png" -w 64 -w 64 $0' {} \;
 
-	cd "$SRC"
+	cd $SRC
 
+	# generate cursors
+	BUILD="$SRC"/../dist
 	OUTPUT="$BUILD"/cursors
 	ALIASES="$SRC"/cursorList
 
@@ -32,7 +33,7 @@ function create {
 	done
 	echo -e "Generating cursor theme... DONE"
 
-	cd "$OUTPUT"
+	cd "$OUTPUT"	
 
 	#generate aliases
 	echo -ne "Generating shortcuts...\\r"
@@ -60,53 +61,7 @@ function create {
 
 # generate pixmaps from svg source
 SRC=$PWD/src
+THEME="Qogir Joris"
 
-cd "$SRC"
-rm -rf ubuntu manjaro ubuntu-white manjaro-white
-cp -r svg ubuntu
-cp -r svg manjaro
-cp -r svg joris
-cp -r svg-white ubuntu-white
-cp -r svg-white manjaro-white
-cp -r svg-white joris-white
-cd "$SRC"/ubuntu && sed -i "s/#5294e2/#fb8441/g" `ls`
-cd "$SRC"/manjaro && sed -i "s/#5294e2/#2eb398/g" `ls`
-cd "$SRC"/joris && sed -i "s/#5294e2/#d699b6/g s/#ffffff/#D3D6AA" `ls`
-cd "$SRC"/ubuntu-white && sed -i "s/#5294e2/#fb8441/g" `ls`
-cd "$SRC"/manjaro-white && sed -i "s/#5294e2/#2eb398/g" `ls`
-cd "$SRC"/joris-white && sed -i "s/#5294e2/#d699b6/g s/#ffffff/#D3D6AA" `ls`
-
-THEME="Qogir Cursors"
-BUILD="$SRC/../dist"
 create svg
 
-THEME="Qogir-white Cursors"
-BUILD="$SRC/../dist-dark"
-create svg-white
-
-THEME="Qogir-ubuntu Cursors"
-BUILD="$SRC/../dist-ubuntu"
-create ubuntu
-
-THEME="Qogir-ubuntu-white Cursors"
-BUILD="$SRC/../dist-ubuntu-dark"
-create ubuntu-white
-
-THEME="Qogir-manjaro Cursors"
-BUILD="$SRC/../dist-manjaro"
-create manjaro
-
-THEME="Qogir-manjaro-white Cursors"
-BUILD="$SRC/../dist-manjaro-dark"
-create manjaro-white
-
-THEME="Qogir-manjaro Cursors"
-BUILD="$SRC/../dist-joris"
-create joris
-
-THEME="Qogir-manjaro-white Cursors"
-BUILD="$SRC/../dist-joris-dark"
-create joris-white
-
-cd "$SRC"
-rm -rf ubuntu manjaro ubuntu-white manjaro-white joris joris-white x1 x1_25 x1_5 x2
