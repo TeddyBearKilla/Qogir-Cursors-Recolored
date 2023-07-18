@@ -48,7 +48,7 @@ If you want to apply this default cursor to gdm3 just edit the file
 #  - Change the GTK+ theme
 [org/gnome/desktop/interface]
 # gtk-theme='Adwaita'
-cursor-theme='Qogir-Cursors-Recolored-Joris' <-- here
+cursor-theme='Qogir-Recolored-Joris' <-- here
 ...
 ```
 
@@ -82,10 +82,25 @@ run:
 This will generate the pixmaps and appropriate aliases.
 The freshly compiled cursor theme will be located in `dist/`
 
+# Found issues & Fixes
+- AMD GPUs (Found & Fixed by [Joris](Jorisvandijk.com))
+
+If you have an AMD card and your cursor's color is off (oversaturated), or flickering when hovering over things adding the following to your `/etc/X11/xorg.conf.d/20-amdgpu.conf` file will likely solve it.
+```
+Section "OutputClass"
+     Identifier "AMD"
+     MatchDriver "amdgpu"
+     Driver "amdgpu"
+     Option "SWCursor" "True"
+     Option "TearFree" "True"
+EndSection
+```
+
+
 <div align = center>
 
 # Preview
-![Qognir](previews/CursorsSoFar.gif)
+![Qognir](previews/view-joris.png)
 ### (Check [/previews](https://github.com/TeddyBearKilla/Qogir-Cursors-Recolored/tree/main/previews) for all colors)
 
 <!--# Cursors made as of July 18th
