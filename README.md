@@ -100,9 +100,9 @@ EndSection
 <div align = center>
 
 # Preview
-![Qognir](previews/view-joris.png)
+![Qognir](previews/CursorsSoFar.gif)
 ### (Check [/previews](https://github.com/TeddyBearKilla/Qogir-Cursors-Recolored/tree/main/previews) for all colors)
 
-<!--# Cursors made as of July 18th
-![Qognir](previews/CursorsSoFar.png)-->
+# Cursors made as of July 19th
+![Qognir](previews/CursorsSoFar.png)
 </div>

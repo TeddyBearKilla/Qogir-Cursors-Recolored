@@ -39,7 +39,7 @@
      id="namedview21"
      showgrid="false"
      inkscape:zoom="36.6875"
-     inkscape:cx="15.986371"
+     inkscape:cx="14.091993"
      inkscape:cy="16"
      inkscape:window-x="0"
      inkscape:window-y="34"
@@ -68,13 +68,13 @@
      style="color:#000000;text-indent:0;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;text-transform:none;white-space:normal;opacity:0.35;isolation:auto;mix-blend-mode:normal;solid-color:#000000;filter:url(#a);color-rendering:auto;image-rendering:auto;shape-rendering:auto"
      d="m 13,8.96 v 4 H 9 v 6 h 4 v 4 h 6 v -4 h 4 v -6 h -4 v -4 z" />
   <path
-     style="fill:none;stroke:#2d353b;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+     style="fill:none;stroke:#1c1a2d;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
      inkscape:connector-curvature="0"
      id="path9"
      d="m 13,8.96 v 4 H 9 v 4 h 4 v 4 h 4 v -4 h 4 v -4 h -4 v -4 z" />
   <path
      inkscape:connector-curvature="0"
-     style="fill:#d699b6;fill-opacity:1"
+     style="fill:#8a80e0;fill-opacity:1"
      id="path11"
      d="m 13,8.96 v 4 H 9 v 4 h 4 v 4 h 4 v -4 h 4 v -4 h -4 v -4 z" />
 </svg>

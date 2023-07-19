@@ -61,7 +61,7 @@ function create {
 
 # generate pixmaps from svg source
 SRC=$PWD/src
-THEME="Qogir Joris"
+THEME="Qogir Purple"
 
 create svg
 

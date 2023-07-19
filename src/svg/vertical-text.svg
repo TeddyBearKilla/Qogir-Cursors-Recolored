@@ -39,7 +39,7 @@
      id="namedview19"
      showgrid="false"
      inkscape:zoom="36.6875"
-     inkscape:cx="15.441227"
+     inkscape:cx="13.574106"
      inkscape:cy="16"
      inkscape:window-x="0"
      inkscape:window-y="36"
@@ -88,12 +88,12 @@
          stroke-linejoin="round"
          stroke-width="2"
          id="path9"
-         style="stroke:#2d353b;stroke-opacity:1" />
+         style="stroke:#1c1a2d;stroke-opacity:1" />
       <path
          d="m300 172h1v-2h13v2h1v-5h-1v2h-13v-2h-1z"
          fill="#151515"
          id="path11"
-         style="fill:#d699b6;fill-opacity:1" />
+         style="fill:#8a80e0;fill-opacity:1" />
     </g>
   </g>
 </svg>

@@ -40,7 +40,7 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="36.6875"
-     inkscape:cx="15.986371"
+     inkscape:cx="14.091993"
      inkscape:cy="16"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -80,12 +80,12 @@
        inkscape:connector-curvature="0"
        id="path4801-6-4-9"
        d="m 16.542979,1032.6318 a 1.0001,1.0001 0 0 0 -0.59375,0.2813 l -12.59375,12.625 a 1.0001,1.0001 0 0 0 -0.21875,0.4062 l -1.0625,3.1875 a 1.0001,1.0001 0 0 0 1.25,1.25 l 3.1875,-1.0625 a 1.0001,1.0001 0 0 0 0.40625,-0.2187 l 12.59375,-12.625 a 1.0001,1.0001 0 0 0 0,-1.4375 l -2.125,-2.125 a 1.0001,1.0001 0 0 0 -0.84375,-0.2813 z"
-       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#2d353b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;enable-background:accumulate" />
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#1c1a2d;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;enable-background:accumulate" />
     <path
        sodipodi:nodetypes="ccccccccccc"
        inkscape:connector-curvature="0"
        id="path4801-6-4"
        d="m 16.667979,1033.6318 -12.59375,12.625 -1.0625,3.1875 3.1875,-1.0625 12.59375,-12.625 z m 0.0312,1.4375 0.6875,0.6875 -1.3125,1.3125 -0.6875,-0.6875 z"
-       style="fill:#d699b6;fill-opacity:1;stroke:none" />
+       style="fill:#8a80e0;fill-opacity:1;stroke:none" />
   </g>
 </svg>
