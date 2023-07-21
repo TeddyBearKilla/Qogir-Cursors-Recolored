@@ -40,7 +40,7 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="36.6875"
-     inkscape:cx="14.091993"
+     inkscape:cx="12.020443"
      inkscape:cy="16"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -92,6 +92,6 @@
        inkscape:connector-curvature="0"
        id="circle820"
        d="m 9.636039,9.636039 a 9.0000124,9.0000124 0 0 0 0,12.727922 9.0000124,9.0000124 0 0 0 12.727922,0 9.0000124,9.0000124 0 0 0 0,-12.727922 9.0000124,9.0000124 0 0 0 -12.727922,0 z m 1.414214,1.414214 a 7.0000267,7.0000267 0 0 1 9.137145,-0.651865 l -9.787628,9.787629 a 7.0000267,7.0000267 0 0 1 0.650483,-9.135764 z m 0.762349,10.551359 9.787629,-9.787629 a 7.0000267,7.0000267 0 0 1 -0.650484,9.135764 7.0000267,7.0000267 0 0 1 -9.137145,0.651865 z"
-       style="fill:#1c1a2d;fill-opacity:1;stroke:none;stroke-width:0.81818295" />
+       style="fill:#1a192e;fill-opacity:1;stroke:none;stroke-width:0.81818295" />
   </g>
 </svg>
