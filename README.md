@@ -1,8 +1,12 @@
+<div align = center>
+
 # Qogir cursors
 This is an x-cursor theme inspired by the original [Qogir Cursor pack](https://github.com/vinceliuice/Qogir-icon-theme/tree/master/src/cursors) but recolored, originally based on the [capitaine-cursors](https://github.com/keeferrourke/capitaine-cursors).
 
 
 I enjoyed using this cursor pack and then thought it would be a good idea to make special colors for myself and others. If you'd like to suggest colors you'd like, please submit a request.
+
+If you prefer rounded cursors, check out: [**Afterglow Cursors Recolored**](https://github.com/TeddyBearKilla/Afterglow-Cursors-Recolored)
 
 If you'd like to support me on Ko-fi it's appreciated, takes time to make each recolor and test them.
 You can also request commisions there and I'll go trough the whole process of making a custom color for you with various additions.
@@ -12,7 +16,7 @@ You can also request commisions there and I'll go trough the whole process of ma
 
 ## Installation
 To install the cursor theme simply copy the compiled theme to your icons
-directory.
+directory. Same with alternative colors.
 
 If you `git clone` my repo, go into any `color` and use:
 
@@ -67,9 +71,6 @@ Right click `install.inf`
 Go to your mouse settings & change it.
 
 Enjoy! And many thanks to [Mojas84](https://github.com/Mojas84) for converting then to windows & [Ripley](https://github.com/ripl3yy) for test installing them on windows & helping me figure out the steps!-->
-
-## Alternative Colors
-To install the alternative colors you MUST use the `install.sh`inside the folder of the color you want.
 
 ## Building from source/Customize the Cursor
 You'll find everything you need to build and modify this cursor set in
