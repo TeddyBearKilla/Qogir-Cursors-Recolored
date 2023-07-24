@@ -105,6 +105,6 @@ EndSection
 ![Qogir](previews/CursorsSoFar.gif)
 ### (Check [/previews](https://github.com/TeddyBearKilla/Qogir-Cursors-Recolored/tree/main/previews) for all colors)
 
-# Cursors made as of July 23rd
+# Cursors made as of July 24th
 ![Qogir](previews/CursorsSoFar.png)
 </div>
