@@ -1,7 +1,7 @@
 <div align = center>
 
 # Qogir cursors
-This is an x-cursor theme inspired by the original [Qogir Cursor pack](https://github.com/vinceliuice/Qogir-icon-theme/tree/master/src/cursors) but recolored, originally based on the [capitaine-cursors](https://github.com/keeferrourke/capitaine-cursors).
+This is an x-cursor theme inspired by the original [**Qogir Cursor pack**](https://github.com/vinceliuice/Qogir-icon-theme/tree/master/src/cursors) but recolored, originally based on the [**capitaine-cursors**](https://github.com/keeferrourke/capitaine-cursors).
 
 
 I enjoyed using this cursor pack and then thought it would be a good idea to make special colors for myself and others. If you'd like to suggest colors you'd like, please submit a request.
@@ -18,7 +18,7 @@ You can also request commisions there and I'll go trough the whole process of ma
 To install the cursor theme simply copy the compiled theme to your icons
 directory. Same with alternative colors.
 
-If you `git clone` my repo or download the [latest release](https://github.com/TeddyBearKilla/Qogir-Cursors-Recolored/releases/tag/Latest-release), go into any `color` and use:
+If you `git clone` my repo or download the [**latest release**](https://github.com/TeddyBearKilla/Qogir-Cursors-Recolored/releases/tag/Latest-release), go into any `color` and use:
 
 For local user installation: `./install.sh`
 
@@ -57,7 +57,7 @@ cursor-theme='Qogir-Recolored-Joris' <-- here
 ...
 ```
 
-Enjoy! And many thanks to [coffeewasmyidea](https://github.com/coffeewasmyidea) for forking and adding the tutorial!
+Enjoy! And many thanks to [**coffeewasmyidea**](https://github.com/coffeewasmyidea) for forking and adding the tutorial!
 
 <!--
 ## Installation (Windows)
@@ -70,7 +70,7 @@ Right click `install.inf`
 
 Go to your mouse settings & change it.
 
-Enjoy! And many thanks to [Mojas84](https://github.com/Mojas84) for converting then to windows & [Ripley](https://github.com/ripl3yy) for test installing them on windows & helping me figure out the steps!-->
+Enjoy! And many thanks to [**Mojas84**](https://github.com/Mojas84) for converting then to windows & [**Ripley**](https://github.com/ripl3yy) for test installing them on windows & helping me figure out the steps!-->
 
 ## Building from source/Customize the Cursor
 You'll find everything you need to build and modify this cursor set in
