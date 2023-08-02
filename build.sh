@@ -65,3 +65,5 @@ THEME="Qogir Purple"
 
 create svg
 
+cd "$SRC"
+rm -rf x1_25 x1_5 x2
