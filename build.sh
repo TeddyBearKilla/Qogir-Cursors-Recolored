@@ -54,7 +54,7 @@ function create {
 	INDEX="$OUTPUT/../index.theme"
 	if [ ! -e "$OUTPUT/../$INDEX" ]; then
 		touch "$INDEX"
-		echo -e "[Icon Theme]\nName=$THEME\n" > "$INDEX"
+		echo -e "[Icon Theme]\nName=$THEME\nComment=$THEME Cursor pack.\n" > "$INDEX"
 	fi
 	echo -e "Generating Theme Index... DONE"
 }
