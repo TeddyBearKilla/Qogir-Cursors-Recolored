@@ -2,6 +2,7 @@
 
 ROOT_UID=0
 DEST_DIR=
+DISTR=Qogir-Recolored-Catppuccin-Macchiato/
 
 # Destination directory
 if [ "$UID" -eq "$ROOT_UID" ]; then
@@ -10,11 +11,11 @@ else
   DEST_DIR="$HOME/.local/share/icons"
 fi
 
-if [ -d "$DEST_DIR/Qogir-Recolored-Purple" ]; then
-  rm -r "$DEST_DIR/Qogir-Recolored-Purple"
+if [ -d "$DEST_DIR/$DISTR" ]; then
+  rm -r "$DEST_DIR/$DISTR"
 fi
 
-cp -pr dist $DEST_DIR/Qogir-Recolored-Purple
+cp -r $DISTR $DEST_DIR
 
-echo "Finished..."
+echo "Finished copying ..."
 
