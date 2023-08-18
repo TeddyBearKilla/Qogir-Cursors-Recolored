@@ -6,7 +6,7 @@
    height="32"
    id="svg5770"
    version="1.1"
-   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
    viewBox="0 0 32 32"
    sodipodi:docname="not-allowed.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -39,8 +39,8 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="36.6875"
-     inkscape:cx="12.020443"
+     inkscape:zoom="37.40625"
+     inkscape:cx="16"
      inkscape:cy="16"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -60,7 +60,13 @@
      inkscape:deskcolor="#1e1e2e">
     <inkscape:grid
        type="xygrid"
-       id="grid818" />
+       id="grid818"
+       originx="0"
+       originy="0"
+       spacingy="1"
+       spacingx="1"
+       units="px"
+       visible="false" />
   </sodipodi:namedview>
   <metadata
      id="metadata5775">
@@ -84,7 +90,7 @@
        style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;filter:url(#filter7438);enable-background:accumulate" />
     <circle
        id="path4734"
-       style="fill:#f04747;fill-opacity:1;stroke:none"
+       style="fill:#222222;fill-opacity:1;stroke:none"
        cx="15.999988"
        cy="16.000027"
        r="11" />
@@ -92,6 +98,6 @@
        inkscape:connector-curvature="0"
        id="circle820"
        d="m 9.636039,9.636039 a 9.0000124,9.0000124 0 0 0 0,12.727922 9.0000124,9.0000124 0 0 0 12.727922,0 9.0000124,9.0000124 0 0 0 0,-12.727922 9.0000124,9.0000124 0 0 0 -12.727922,0 z m 1.414214,1.414214 a 7.0000267,7.0000267 0 0 1 9.137145,-0.651865 l -9.787628,9.787629 a 7.0000267,7.0000267 0 0 1 0.650483,-9.135764 z m 0.762349,10.551359 9.787629,-9.787629 a 7.0000267,7.0000267 0 0 1 -0.650484,9.135764 7.0000267,7.0000267 0 0 1 -9.137145,0.651865 z"
-       style="fill:#1a192e;fill-opacity:1;stroke:none;stroke-width:0.81818295" />
+       style="fill:#777777;fill-opacity:1;stroke:none;stroke-width:0.81818295" />
   </g>
 </svg>
