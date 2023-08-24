@@ -10,9 +10,7 @@ else
   DEST_DIR="$HOME/.local/share/icons"
 fi
 
-if [ -d "$DEST_DIR/Qogir-Recolored-Purple" ]; then
-  rm -r "$DEST_DIR/Qogir-Recolored-Purple"
-fi
+if [ -d "$DEST_DIR/Qogir-Recolored-Purple" ]; then rm -r "$DEST_DIR/Qogir-Recolored-Purple"; fi
 
 cp -pr dist $DEST_DIR/Qogir-Recolored-Purple
 
