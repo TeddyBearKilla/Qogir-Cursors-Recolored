@@ -25,7 +25,7 @@ For local user installation: `./install.sh`
 For system-wide installation for all users: `sudo ./install.sh`
 
 
-Alternatively you can download the tar.gz of the color you want in the [**releases**](https://github.com/TeddyBearKilla/Afterglow-Cursors-Recolored/releases)
+Alternatively you can download the tar.gz of the color you want in the [**releases**](https://github.com/TeddyBearKilla/Qogir-Cursors-Recolored/releases)
 then extract it in
 `.local/share/icons` or `/usr/share/icons` (system wide)
 
@@ -53,7 +53,7 @@ If you want to apply this default cursor to gdm3 just edit the file
 #  - Change the GTK+ theme
 [org/gnome/desktop/interface]
 # gtk-theme='Adwaita'
-cursor-theme='Qogir-Recolored-Joris' <-- here
+cursor-theme='Qogir-Recolored-Purple' <-- here
 ...
 ```
 
@@ -74,8 +74,8 @@ Enjoy! And many thanks to [**Mojas84**](https://github.com/Mojas84) for converti
 
 ## Building from source / Customize the Cursor
 You'll find everything you need to build and modify this cursor set in
-the `src/` directory. You'll need [**Inkscape**](https://inkscape.org/) installed. To build the xcursor theme from the SVG source
-run:
+the `src/` directory. You'll need [**Inkscape**](https://inkscape.org/) & `xorg-xcursorgen` installed. To build the xcursor theme from the SVG source
+run this after you edit the SVGs:
 
 ```
 ./build.sh
@@ -105,6 +105,6 @@ EndSection
 ![Qogir](previews/CursorsSoFar.gif)
 ### (Check [/previews](https://github.com/TeddyBearKilla/Qogir-Cursors-Recolored/tree/main/previews) for all colors)
 
-# All cursors made as of August 24th
+# All cursors made as of August 29th
 ![Qogir](previews/CursorsSoFar.png)
 </div>
